@@ -13,8 +13,6 @@ sections:
 - type: document
   path: "./src/ecosystem.html"
   label: Grants and Ecosystem
-  match: "**/*"
-  read_only: false
 upload_dir: uploads
 public_path: "/uploads"
 front_matter_path: ''
