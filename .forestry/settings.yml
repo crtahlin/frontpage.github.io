@@ -1,7 +1,7 @@
 ---
-new_page_extension: md
+new_page_extension: html
 auto_deploy: false
-admin_path: 
+admin_path: ''
 webhook_url: 
 sections:
 - type: directory
@@ -9,7 +9,7 @@ sections:
   label: All files
   create: all
   match: "**/*"
-  new_doc_ext: ".html"
+  new_doc_ext: html
 - type: document
   path: "./src/ecosystem.html"
   label: Grants and Ecosystem
